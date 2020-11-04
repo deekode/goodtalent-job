@@ -1,0 +1,28 @@
+version: '3'
+services: 
+    mongodb :
+        restart: always
+        image: 'mongo:latest'
+        ports: 
+            - '3001:27017'
+        volumes:
+            - ./mongodata:/data/db
+    # redis : 
+    #     image: 'redis:latest'
+    usermanagement :
+        depends_on:  
+            - mongodb
+        build: 
+            dockerfile: Dockerfile.dev
+            context : .
+        volumes: 
+            - /app/node_modules
+            - .:/app
+        ports :
+            - '5000:5000'
+        environment:
+             WAIT_HOSTS: mongodb:3001  
+    
+              
+
+            

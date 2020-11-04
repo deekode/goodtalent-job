@@ -1,0 +1,22 @@
+[
+	{
+		"deleted": false,
+		"userGroup": "company",
+		"title": "ATS Only Plan (Test)",
+		"description": "ATS Only Plan (Test)",
+		"numberOfTests": 0,
+		"duration": 31,
+		"currency": "NGN",
+		"freePlan": true
+	},
+	{
+		"deleted": false,
+		"userGroup": "agency",
+		"title": "ATS Only Plan (Test)",
+		"description": "ATS Only Plan (Test)",
+		"numberOfTests": 0,
+		"duration": 31,
+		"currency": "NGN",
+		"freePlan": true
+	}
+]

@@ -1,0 +1,69 @@
+
+
+[
+   
+    {
+	"skills": [],
+	"links": [],
+	"isVerified": true,
+	"deleted": false,
+	"name": "administrator",
+	"email": "super@mailinator.com",
+	"password": "$2a$10$JIxkO7dFtW9Hv/69e2/uHeZD.SlcamrESEr18ZNMM7rPtvGreN1.i",
+	"role": "superadmin"
+},
+
+{
+	"isVerified": true,
+	"deleted": false,
+	"name": "company",
+	"email": "company@mailinator.com",
+	"password": "$2a$10$QgsT0dxhqrGBOwx.HdTOFeAPhgAzl8zRABFXhPEuRtCevyxlyMXxm",
+	"role": "company",
+	"bio": "We are an amazing group of company",
+	"phoneNumber": "+2347041377431",
+	"website": "https://loading.com",
+	"image": "https://res.cloudinary.com/dikky/image/upload/v1586851326/profile_images/5dde61d75e2af02aff36a806.png"
+},
+
+{
+	"isVerified": true,
+	"deleted": false,
+	"name": "agency",
+	"email": "agency@mailinator.com",
+	"password": "$2a$10$KC3.tfoS8UhrjNID3bmv/OcqSqvi3vWfg9BYTgqmeUy7boHBd3Mwy",
+	"role": "agency",
+	"bio": "We hire only the best",
+	"phoneNumber": "+2349032323232",
+	"website": "https://loading.com"
+},
+{
+	"skills": [
+		{
+			"name": "reactjs",
+			"expertise": 5
+		}
+	],
+	"links": [
+		{
+			"link": "https://faithidowu.netlify.com"
+		},
+		{
+			"link": "https://good-talent.netlify.com"
+		}
+	],
+	"isVerified": true,
+	"deleted": false,
+	"name": "talent",
+	"email": "talent@mailinator.com",
+	"password": "$2a$10$iS6lPDcpxC6VpYLSXOYnxerNcrMPDWA8RLajp/J/n3myLtC/Mi7D6",
+	"role": "talent",
+	"resume": "https://res.cloudinary.com/dikky/image/upload/v1585765226/resume/5e189e2fece17141166f28a0.pdf",
+	"image": "https://res.cloudinary.com/dikky/image/upload/v1585918193/profile_images/5e189e2fece17141166f28a0.png",
+	"talentRole": "Project Manager",
+	"bio": "I have a very good bio",
+	"phoneNumber": "+4470309098782",
+	"disabled": false
+}
+
+]

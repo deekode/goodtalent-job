@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+import "google/protobuf/struct.proto";
+
+package jobpackage;
+
+
+message request {
+    string payload = 1;
+  }
+  
+  message response {
+    string response = 1;
+  }
+
+  message res {
+    google.protobuf.Struct obj = 1;
+  }
+
+service JobService {
+  rpc countJobs (request) returns (response);
+  rpc fetchJobs (request) returns  (response);
+  rpc fetchJob (request) returns (response);
+  rpc fetchApplications (request) returns (res);
+  rpc fetchApplication (request) returns (response);
+  rpc countApplications (request) returns (response);
+}

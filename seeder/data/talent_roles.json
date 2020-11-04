@@ -1,0 +1,93 @@
+[
+{
+
+    "id" : "1",
+    "name" : "UX/UI"
+}
+,
+
+{
+
+    "id" : "6",
+    "name" : "Software Quality Assurance"
+}
+,
+
+{
+
+    "id" : "15",
+    "name" : "Information Security"
+}
+,
+{
+
+    "id" : "11",
+    "name" : "Product Manager"
+}
+,
+
+{
+
+    "id" : "3",
+    "name" : "Backend Developer"
+}
+,
+
+{
+
+    "id" : "2",
+    "name" : "Frontend Developer"
+}
+,
+{
+
+    "id" : "13",
+    "name" : "Hybrid Mobile Developer"
+}
+,
+
+{
+
+    "id" : "4",
+    "name" : "Fullstack Developer"
+}
+,
+{
+    "id" : "12",
+    "name" : "Project Manager"
+}
+,
+{
+    "id" : "14",
+    "name" : "Database Admin"
+}
+,
+{
+
+    "id" : "16",
+    "name" : "System Integrator"
+}
+,
+{
+    "id" : "10",
+    "name" : "Business Analyst "
+}
+,
+
+{
+    "id" : "5",
+    "name" : "DevOps Engineer"
+}
+
+,
+{
+  
+    "id" : "9",
+    "name" : "Mobile App (Android)"
+}
+,
+{
+    "id" : "8",
+    "name" : "Mobile App (iOS)"
+}
+]

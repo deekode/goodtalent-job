@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package notificationpackage;
+
+
+message EmailPayload {
+    string htmlMessage = 1;
+    string subject = 2;
+    repeated email recepients = 3;
+  }
+
+  message email {
+    string Email = 1;
+  }
+  
+  message EmailResponse {
+    string response = 1;
+  }
+
+service NotifyService {
+  rpc notifyByEmail (EmailPayload) returns (EmailResponse) {}
+}
